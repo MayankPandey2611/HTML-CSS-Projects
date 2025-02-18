@@ -14,7 +14,6 @@
     
     position: fixed;
     background-color: darkred;
-    
     z-index: 999;
 }
 
@@ -41,7 +40,7 @@
 }
 #navbar nav ul li a:hover{
  
-    background-color: red;
+    background-color: brown;
   
 }
 
@@ -79,64 +78,116 @@ h1 a{
 
 /* -----MAIN PART STARTS HERE---- */
 
-#home {
-    /* position: absolute; */
 
+#home {
     width: 100%;
     height: 700px;
     background-repeat: no-repeat;
-    background-image: url(./images/coffee1.jpeg);
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.phATIQWSl0faEXVixpiveAHaDn&pid=Api&P=0&h=180);
     background-size: cover;
     border: 1px solid black;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     
 }
 
 #home h1{
-    position: absolute;
+    /* position: absolute; */
     color: white;
-   
     font-size: 80px;
-    
-   
 }
 
+.banner{
 
+    /* width: 100%; */
+    /* float: left; */
+    /* padding-left: 90px; */
+    /* padding-bottom: 100px; */
+    /* max-width: 100%; */
+}
 
 #home div .coffee {
    
-    font-size: 80px;
+    font-size: 110px;
     color: white;
     font-weight: 800;
-    line-height: 90px;
-    position: relative;
- padding: 10px;
+    line-height: 120px;
+    /* position: relative; */
+    /* padding: 10px; */
 }
 .para{
    color: white;
-   
-   float: left;
-   font-size: 16px;
+   /* float: left; */
+   font-size: 20px;
    margin: 20px 0px 0px;
 }
 
+
+#button{
+    /* width: 100%; */
+    /* float: left; */
+    /* padding-top: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .about a{
     color: white;
     background-color: red;
     text-decoration: none;
-   
+    
+}
+.about{
+  width: 140px;
+  float: left;
+  border: 0px solid black;
+  border-color: red;
+  background-color: red;
+  text-align: center;
+  border-width: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    float: left;
+    border: 0px solid black;
+    border-color:white;
+    background-color: white;
+    text-align: center;
+    border-width: 10px;
+    /* border-radius: 50%; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .call a{
     text-decoration: none;
     background-color: white;
+    color: black;
+ 
+}
+.call:hover{
+    background-color: red;
 }
 
+.call:hover a{
+    /* background-color: red; */
+    /* color: white; */
+    background-size: cover;
+    background-color: red;
+}
 
-
-#boxes{
+/* #boxes{
     width: 100%;
     height: 100vh;
 }
@@ -152,4 +203,90 @@ h1 a{
     width: 300px;
     height: 300px;
     border: 1px solid black;
+} */
+
+
+#arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#arrow .arrow_class1{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+background-color: white;
+display: flex;
+justify-content: center;
+flex: nowrap;
+
+}
+#arrow .arrow_class1 a{
+  text-decoration: none;
+  color: black;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  
+  
+
+}
+
+
+
+
+#arrow .arrow_class1:hover{
+    background-color: red;
+}
+
+#arrow .arrow_class1:hover a{
+    background-color: red;
+
+}
+
+#arrow .arrow_class2{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color:red ;
+    
+}
+
+
+
+#arrow .arrow_class2 a{
+    text-decoration: none;
+    color: black;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+
+
+/* ABOUT SECTION STARTS HERE. */
+
+#about_section{
+    width: 100%;
+    height: 300px;
+    
+}
+
+#about_section .heading{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#about_section .heading_part{
+    font-size: 30px;
+    font-style:inherit;
+    display: flex;
+    justify-content: center;
+    
 }
