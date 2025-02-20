@@ -1,0 +1,124 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* position: fixed; */
+    background-color:black;
+    z-index: 999;
+/* padding-left: 200px; */
+}
+
+#navbar div nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 30px;
+    white-space: nowrap;
+    font-size: 20px;
+    color:white;
+}
+
+#navbar nav ul a{
+    text-decoration: none;
+    color: white;
+}
+#navbar nav ul li:hover a {
+  color: red;
+}
+
+h1 a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar .icon{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-right: 40px;
+    white-space: nowrap;
+}
+
+#navbar h1{
+    margin-left: 10px;
+}
+#navbar.icon a{
+    text-decoration: none;
+}
+#navbar .icon:hover a{
+    color: red;
+}
+
+  .login{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.search{
+    color: white;
+}
+
+/* LOGIN PART STARTS HERE */
+
+
+#loginform{
+    display: grid;
+    /* justify-content: center; */
+    /* margin-top: 30px; */
+}
+
+#loginform h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#loginform .login{
+    background-color: red;
+    color: white;
+    width: 90px;
+    height:40px;
+    font-size: 16px;
+    border: 0px solid red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#loginform .login:hover{
+    background-color:#f0e3e3cd;
+    color: black;
+    transform: scale(1.5);
+
+}
+
+#loginform input{
+    width: 400px;
+    height: 40px;
+    background-color: #ebebebd8;
+    color:black;
+   border: 0px solid grey;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+   
