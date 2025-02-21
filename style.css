@@ -81,7 +81,7 @@ h1 a{
     background-repeat: no-repeat;
     background-image: url(https://tse1.mm.bing.net/th?id=OIP.phATIQWSl0faEXVixpiveAHaDn&pid=Api&P=0&h=180);
     background-size: cover;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -248,64 +248,107 @@ flex: nowrap;
 
 #about_section{
     width: 100%;
-    height: 300px;
-    border: 0px solid white;
+    height: 700px;
+    /* border: 0px solid white; */
     
 }
 
 #about_section .heading{
-    font-size: 30px;
-    /* display: flex; */
-    /* justify-content: center; */
     padding-left: 60px;
     padding-top: 80px;
-    /* text-transform: uppercase; */
-    /* font-weight: bold; */
-}
-
-
-/* #about_section .heading_part{
-    font-size: 30px;
-    font-family: sans-serif;
-    display: flex;
-    padding-left: 55px;
-    padding-top: 30px;
-    margin: 10px 0px;
     
-} */
-
-#about_section .img{
-    /* display: flex;
-    justify-content: center; */
-    width: 100%;
-}
-.img{
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-}
-/* 
-#about_section #head{
-    display: flex;
 }
 
-
-#about_section #head1{
-    display: flex;
-} */
 
 #head{
     display: flex;
     justify-content: center;
+    float: left;
+    padding-right: 90px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.heading h2{
+    font-size:30px;
+    width: 100%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
 }
 
+.heading h5{
+    font-size: 20px;
+    color: rgb(73, 69, 69);
+    
+}
 .heading p{
     font-size: 20px;
+    float: left;
     font-weight: lighter;
     font-family: serif;
+    color: #232222;
+
 }
 
-.heading .img{
-    width: 300px;
-    height: 150px;
+ .heading a{
+    width: 150px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 29px;
+    border:1px solid red ;
+    text-decoration: none;
+    float: left;
+    color: red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.heading a:hover{
+    color: black;
+    /* border-color: black; */
+    background-color: red;
+}
+
+
+#coffee_section h1{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+#coffee_section  .coffee1{
+    width: 100%;
+    float: left;
+    background-color: #242c2f;
+    height: auto;
+    padding: 20px 20px;
+}
+
+#coffee_section .coffee1 h3{
+    width: 20%;
+    float: left;
+    font-size: 22px;
+    color: #fefefd;
+    text-align: center;
+    font-weight: bold;
+}
+
+#coffee_section .coffee1 p{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #fefefd;
+    text-align: center;
+    margin: 0px;
 }
