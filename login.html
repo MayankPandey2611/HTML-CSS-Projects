@@ -46,10 +46,12 @@
 
     <main>
 
+
+    
         <section id="loginform">
 
             <h1>Login To Your Account</h1>
-            <form align="center" action="https://api.web3forms.com/submit" method="POST">
+            <!-- <form align="center" action="https://api.web3forms.com/submit" method="POST">
 
 
                 <input type="hidden" name="access_key" value="1165146f-0a98-4e84-8147-ad199933cd38">
@@ -68,7 +70,40 @@
                 <input class="login" type="submit" value="Login"> <br><br>
                 <p>Don't have an account? <a href="register.html">Register</a> </p>
 
-            </form>
+            </form> -->
+
+            
+        <form  align="center"action="https://api.web3forms.com/submit" method="POST">
+
+    
+            <input type="hidden" name="access_key" value="1165146f-0a98-4e84-8147-ad199933cd38">
+        
+            <input type="text" name="name" required placeholder="Enter your username"
+                    style="padding: 25px;"><br><br>
+
+                    <input type="text" name="email" required placeholder="Enter your Email" style="padding: 25px;"><br><br>
+
+                    <input type="password" name="Password" required placeholder="Enter your password"
+                        style="padding: 25px;"><br><br>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    
+    
+                    <input class="login" type="submit" value="Login"> <br><br>
+                    <p>Don't have an account? <a href="register.html">Register</a> </p>
+<!-- 
+
+             Name:<input type="text" name="name" required placeholder="Enter your name"><br><br>
+             Address: <input type="text" name="address" required><br><br>
+             Email:<input type="text" name="email" required><br><br>
+             Courses:<input type="text" name="Courses" required ><br><br>
+            Mobile number: <input type="number" name="number"required><br><br>
+            Upload Resume: <input type="file" name="resume"  ><br><br>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+           
+            <input type="submit"> -->
+        
+        </form> 
         </section>
    
 
