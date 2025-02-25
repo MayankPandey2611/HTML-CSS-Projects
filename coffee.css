@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -74,274 +76,8 @@ h1 a {
     color: white;
 }
 
-
-
-/* -----MAIN PART STARTS HERE---- */
-
-
-#home {
-    width: 100%;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-image: url(https://tse1.mm.bing.net/th?id=OIP.phATIQWSl0faEXVixpiveAHaDn&pid=Api&P=0&h=180);
-    background-size: cover;
-    /* border: 1px solid black; */
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    padding-left: 20px;
-    /* background: url(https://tse1.mm.bing.net/th?id=OIP.phATIQWSl0faEXVixpiveAHaDn&pid=Api&P=0&h=180) no-repeat center center fixed; */
-}
-
-#home h1 {
-    /* position: absolute; */
-    color: white;
-    font-size: 80px;
-}
-
-.banner {
-
-    padding-left: 80px;
-}
-
-
-#home div .coffee {
-
-    font-size: 110px;
-    color: white;
-    font-weight: 800;
-    line-height: 120px;
-    /* position: relative; */
-    /* padding: 10px; */
-}
-
-.para {
-    color: white;
-    /* float: left; */
-    font-size: 20px;
-    margin: 20px 0px 0px;
-}
-
-
-#button {
-    /* width: 100%; */
-    /* float: left; */
-    /* padding-top: 40px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 30px;
-}
-
-.about a {
-    color: white;
-    background-color: red;
-    text-decoration: none;
-
-}
-
-.about {
-    width: 140px;
-    height: 50px;
-    float: left;
-    border: 0px solid black;
-    border-color: red;
-    background-color: red;
-    text-align: center;
-    border-width: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding-top: 5px;
-}
-
-.call {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 140px;
-    height: 50px;
-    float: left;
-    background-color: white;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding-top: 5px;
-}
-
-.call a {
-    text-decoration: none;
-    background-color: white;
-    color: black;
-
-}
-
-#button .call:hover {
-    background-color: red;
-    transition: 1s;
-}
-
-#button .call:hover a {
-    background-color: red;
-    color: white;
-    background-size: cover;
-    transition: 1s;
-
-}
-
-#arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    padding-top: 35px;
-
-}
-
-#arrow .arrow_class1 {
-    border: 1px solid black;
-    width: 46px;
-    height: 45px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex: nowrap;
-
-}
-
-#arrow .arrow_class1 a {
-    text-decoration: none;
-    color: grey;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-
-
-}
-
-#arrow .arrow_class1:hover {
-    background-color: red;
-    transition: 0.8s;
-}
-
-#arrow .arrow_class1:hover a {
-    color: white;
-    background-color: red;
-    transition: 0.8s;
-
-}
-
-#arrow .arrow_class2 {
-    border: 1px solid black;
-    width: 45px;
-    height: 45px;
-    background-color: red;
-    padding-top: 15px;
-}
-
-
-
-#arrow .arrow_class2 a {
-    text-decoration: none;
-    color: white;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-
-
-}
-
-
-/* ABOUT SECTION STARTS HERE. */
-
-#about_section {
-    width: 100%;
-    height: 600px;
-    /* border: 0px solid white; */
-
-}
-
-#about_section .heading {
-    padding-left: 60px;
-    padding-top: 80px;
-
-}
-
-
-#head {
-    display: flex;
-    justify-content: center;
-    float: left;
-    padding-right: 90px;
-    padding-left: 80px;
-    padding-top: 50px;
-}
-
-.heading h2 {
-    font-size: 30px;
-    width: 100%;
-    float: left;
-    text-transform: uppercase;
-    font-weight: bold;
-
-
-}
-
-.heading h5 {
-    font-size: 20px;
-    color: rgb(73, 69, 69);
-    padding-left: 45px;
-
-}
-
-.heading p {
-    font-size: 20px;
-    float: left;
-    font-weight: lighter;
-    font-family: serif;
-    color: #232222;
-    padding-right: 20px;
-
-}
-
-.heading a {
-    width: 150px;
-    height: 50px;
-    padding-top: 15px;
-    padding-left: 29px;
-    border: 1px solid red;
-    text-decoration: none;
-    float: left;
-    color: red;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-left: 35px;
-}
-
-.heading a:hover {
-    color: black;
-    background-color: red;
-    transition: all 1s ease 0.06s;
-}
-
-
-/* transition: [property] [duration] [timing-function] [delay]; */
-
-/* .heading a:hover{
-    color: black;
-    background-color: red;
-    transition: all 1s ease 0.06s ;
-    transform:scale(1.2 , 1) rotateX(360deg) skew(5deg ,1deg) ;
-} */
-
-
+         /* coffee part */
+         
 
 #coffee_section .coffee_heading h1 {
     width: 100%;
@@ -617,17 +353,6 @@ p {
 }
 
 
-
-/* .next-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1.5em;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #555;
-} */
-
 .coffee-offers {
     display: flex;
     justify-content: center;
@@ -703,88 +428,17 @@ p {
 
 }
 
-.customers {
-    display: flex;
-    justify-content: space-between;
+#gridmain .coffee-offers{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(8,300px); */
+    /* scrollbar-width: none; */
+    overflow-x:scroll;
 }
 
-
-#navbar #navbar1 {
-    display: flex;
+#gridmain .coffee-offers .offer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
 }
 
-label{
-    display: none;
-}
-
-#check {
-    display: none;
-}
-
-@media(max-width:430px) {
-    label{
-        display: block;
-    }
-    #navbar nav ul a {
-        color: white;
-    }
-
-    #navbar #navbar1 {
-        display: none;
-    }
-
-    #navbar .icon {
-        display: none;
-    }
-    #bars {
-        position: absolute;
-        top: 3%;
-        right: 10%;
-        z-index: 999;
-        color:grey;
-        background-color: whitesmoke;
-        border: 1px solid white;
-        width: 10%;
-        height: 4%;
-        padding-top: 5px;
-        padding-left: 10px;
-        font-size: 20px;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
-    }
-
-    #navbar div nav ul {
-        flex-direction: column;
-    }
-
-    #check:checked~#navbar #navbar1 {
-        display: flex !important;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column !important;
-        position: absolute;
-        width: 100%;
-        height: 50%;
-        top: 10%;
-        left: 0%;
-        background-color:black;
-        
-    }
-    
-}
-
-
-.head {
-    display: flex;
-    margin-left: 200px;
-}
-.customers{
-    display: flex;
-}
-
-.customers h4{
-    font-size: 20px;
-}

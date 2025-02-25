@@ -1,0 +1,15 @@
+
+
+#gridmain #container{
+    display: grid;
+
+    grid-template-columns: repeat(8,300px);
+    scrollbar-width: none;
+    overflow-x: scroll;
+}
+
+#gridmain #container div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
