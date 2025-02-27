@@ -877,6 +877,16 @@ label{
 
 }
 
+       /* BLOG SECTION STARTS */
+
+       #blogs_section{
+        display: flex;
+       
+       }
+       #blogs{
+        display: flex;
+
+       }
 
 
 
@@ -1019,11 +1029,12 @@ textarea #comment.update_mail::placeholder {
     width: 100%;
     float: left;
     color: #fefefd;
-    font-size: 16px;
+    font-size: 13px;
     padding: 13px 0px 14px 0px;
     background-color: #f01c1c;
     text-transform: uppercase;
     text-align: center;
+    height: 55px;
 }
 
 .subscribe_bt a:hover {
