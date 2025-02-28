@@ -742,6 +742,9 @@ label{
     display: none;
 }
 
+@media(min-width:431px) and (max-width:768px){
+
+}
 @media(max-width:430px) {
     label{
         display: block;
@@ -879,16 +882,33 @@ label{
 
        /* BLOG SECTION STARTS */
 
-       #blogs_section{
+       #blogs_section {
         display: flex;
-       
+        justify-content: center;
+        align-items: center;
        }
+
        #blogs{
         display: flex;
 
        }
 
+       #blogs p{
+        font-size: 15px;
+        padding-right: 50px;
+       }
+       #blogs img{
+        width: 100%;
+        height: auto;
 
+       }
+
+       #blogs h1{
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
 
 /* footer section start */
 
