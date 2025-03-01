@@ -896,6 +896,8 @@ label{
        #blogs p{
         font-size: 15px;
         padding-right: 50px;
+        font-family: sans-serif;
+      font-weight: 100;
        }
        #blogs img{
         width: 100%;
