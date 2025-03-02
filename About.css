@@ -237,14 +237,17 @@ h1 a{
     border-radius: 50%;
     font-size: 19px;
     margin-right: 5px;
-    width: 44px;
+    width: 50px;
     text-align: center;
     margin-top: 13px;
+    height: 50px;
+    padding-top: 15px;
 }
 
 .footer_social_icon li a:hover {
     background-color: #ffffff;
-    color: #f01c1c;
+    color: #f70707;
+    transition: all ease 1s;
 }
 
 .update_mail {
