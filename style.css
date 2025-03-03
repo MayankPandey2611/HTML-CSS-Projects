@@ -797,6 +797,10 @@ label{
         background-color:black;
         
     }
+    .coffee-offers .offer img:hover{
+        transition: all ease 1s;
+        transform: scale(1.10);
+    }
     
 }
 
@@ -971,7 +975,7 @@ label{
     margin: 0 20px 20px;
 }
 
-/* .read .read-more{
+.read .read-more{
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 0;
@@ -980,10 +984,9 @@ label{
     text-decoration: none;
     border-radius: 5px;
     margin-left: 70px;
-    
     margin-top: 30px;
     border: 1px solid white;
-} */
+}
        /* CONTACT PART STARTS */
        
 #contact{

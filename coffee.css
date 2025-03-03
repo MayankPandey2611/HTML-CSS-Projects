@@ -442,6 +442,7 @@ p {
     border: 1px solid black;
 }
 
+
 .coffee-offers .offer img:hover{
     transition: all ease 1s;
     transform: scale(1.10);
@@ -521,7 +522,10 @@ label{
   .coffee-offers  .arrow_class1{
         display:none;
     }
-    
+    .coffee-offers .offer img:hover{
+        transition: all ease 1s;
+        transform: scale(1.10);
+    }
 }
 
 /* footer section start */
