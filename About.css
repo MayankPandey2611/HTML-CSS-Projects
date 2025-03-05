@@ -75,6 +75,7 @@ h1 a{
 
 /* ABOUT SECTION STARTS HERE. */
 
+
 #about_section{
     width: 100%;
     height: 700px;
@@ -212,10 +213,22 @@ label{
         
     }
 
-    #head .img{
-        /* display: none; */
-        width: 100px;
-        height: 20px;
+    .heading{
+        height: 500px;
+
+    }
+   
+    #head{
+        display: flex;
+    }
+     .img img{
+        
+        margin-top: 100%;
+        /* margin-right: 100%; */
+        padding-right: 100%;
+        width: 400px;
+      
+    
        
     }
 }
