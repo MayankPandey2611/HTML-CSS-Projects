@@ -1,54 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Form</title>
     <link rel="stylesheet" href="register.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
+
 <body>
-    <header id="navbar">
-        <h1><a href="">COFFO</a></h1>
+    <div class="wrapper">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="1165146f-0a98-4e84-8147-ad199933cd38">
+            <h1>New User/Register</h1><br/>
+            <div class="input-box">
+                <input type="text" placeholder="Firstname" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Lastname" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Email" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Your Password" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder=" ConfirmPassword" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
 
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Coffees</a></li>
-                   
-                    <li><a href="">Blog</a></li>
-                    
-                    <li><a href="">Contact</a></li>
-
-                </ul>
-            </nav>
-        </div>
-
-        <div class="icon">
-
-            <a href="login.html" class="login"><i class="fa-solid fa-user"></i>&emsp;LOGIN</a>
-            <a href="" class="search"><i class="fa-solid fa-magnifying-glass"></i></a>
-
-        </div>
-
-    </header>
-
-    <main>
-        <section>
-            <form  align="center"action="" style="margin-top: 50px;">
-                
-                Name <br> <input type="name" required placeholder="Enter Your Name"><br><br>
-                <input type="email" required placeholder="Enter your email"><br><br>
-                <input type="password" required placeholder="Enter your password"><br><br>
-                <input type="password" required placeholder="Enter your password"><br><br>
-            </form>
-        </section>
-    </main>
-
+            <input class="login" type="submit" value="Register"> <br><br>
+            <!-- <input type="submit" >Register</input> -->
+           
+        </form>
+    </div>
 </body>
 </html>

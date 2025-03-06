@@ -1,72 +1,98 @@
 
-
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
+    font-family: sans-serif;
 }
-#navbar{
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90ch;
+    background-image: url(https://l450v.alamy.com/450v/2f3263n/travel-vacation-concept-hat-palm-leaf-coffee-cup-eyeglasses-on-wooden-background-relax-high-quality-photo-2f3263n.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.wrapper {
+    width: 420px;
+    background :transparent;
+    color: white;
+    border-radius: 50px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    /* position: fixed; */
-    background-color: darkred;
-    z-index: 999;
-/* padding-left: 200px; */
+    height: 50px;
+    margin: 30px 0;
+
+
 }
 
-#navbar div nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    list-style: none;
-    gap: 30px;
-    white-space: nowrap;
-    font-size: 20px;
-    color:white;
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
 }
 
-#navbar nav ul a{
-    text-decoration: none;
+.input-box input::placeholder {
     color: white;
 }
-#navbar nav ul li:hover a {
-  color: black;
-}
 
-h1 a{
-    font-size: 40px;
+
+.wrapper .login{
+   margin-left: 35%;
+    background-color: transparent;
     color: white;
-    text-decoration: none;
+    width: 90px;
+    height:40px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-#navbar .icon{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
-    margin-right: 40px;
-    white-space: nowrap;
+.wrapper .login:hover{
+    background-color: black;
+
 }
 
-#navbar h1{
-    margin-left: 10px;
-}
-#navbar.icon a{
-    text-decoration: none;
-}
-#navbar .icon:hover a{
-    color: black;
+
+
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
 }
 
-  .login{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.search{
-    color: white;
-}

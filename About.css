@@ -98,6 +98,10 @@ h1 a{
     padding-left: 80px;
     padding-top: 50px;
 }
+.heading{
+    max-width: 600px;
+    margin-right: 20px;
+}
 .heading h2{
     font-size:30px;
     width: 100%;
@@ -213,25 +217,28 @@ label{
         
     }
 
-    .heading{
-        height: 500px;
-
-    }
-   
-    #head{
-        display: flex;
-    }
+  
      .img img{
         
-        margin-top: 100%;
-        /* margin-right: 100%; */
-        padding-right: 100%;
-        width: 400px;
+   width: 300px;
+   height: 250px;
       
     
        
     }
-}
+
+    #head{
+       
+            flex-direction: column;
+            align-items: flex-start;
+            margin-right: 200%;
+        }
+    
+        .heading{
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
 
 
 /* footer section start */
