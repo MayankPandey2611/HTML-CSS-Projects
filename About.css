@@ -94,7 +94,7 @@ h1 a{
     display: flex;
     justify-content: center;
     float: left;
-    padding-right: 90px;
+    /* padding-right: 90px; */
     padding-left: 80px;
     padding-top: 50px;
 }
@@ -151,7 +151,6 @@ h1 a{
 
 
 
-
 #navbar #navbar1 {
     display: flex;
 }
@@ -164,7 +163,7 @@ label{
     display: none;
 }
 
-@media(max-width:430px) {
+@media(max-width:530px) {
     label{
         display: block;
     }
@@ -231,7 +230,7 @@ label{
        
             flex-direction: column;
             align-items: flex-start;
-            margin-right: 200%;
+            /* margin-right: 200%; */
         }
     
         .heading{

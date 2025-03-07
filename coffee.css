@@ -79,194 +79,12 @@ h1 a {
          /* coffee part */
          
 
-#coffee_section .coffee_heading h1 {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #3b3b3b;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
 
-
-}
-
-
-#coffee_section .coffee1 {
-    /* width: 100%; */
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-
-#coffee_section .coffee1 h3 {
-    /* width: 100%; */
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
-}
-
-#coffee_section .coffee1 p {
-    /* width: 100%; */
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
-}
-
-#about_coffee .coffee2 {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
-}
-
-#about_coffee1 .coffee4 {
-    /* width: 100%; */
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-
-#about_coffee1 .coffee4 h3 {
-    /* width: 100%; */
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
-}
-
-#about_coffee1 .coffee4 p {
-    /* width: 100%; */
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
-}
-
-#about_coffee1 .coffee5 {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
-
-}
-
-#about_coffee1 .coffee5 a {
-    text-decoration: none;
-}
-
-
-#about_coffee {
-    border: 0px solid black;
-
-}
-
-#about_coffee1 {
-    border: 0px solid black;
-}
-
-#about_coffee2 {
-    border: 0px solid black;
-}
-
-#about_coffee3 {
-    border: 0px solid black;
-}
-
-#about_coffee2 .coffee7 {
-    /* width: 100%; */
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-
-#about_coffee2 .coffee7 h3 {
-    /* width: 50%; */
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
-}
-
-#about_coffee2 .coffee7 p {
-    /* width: 50%; */
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
-}
-
-#about_coffee2 .coffee8 {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
-}
-
-#about_coffee2 .coffee8 a {
-    text-decoration: none;
-}
-
-
-#about_coffee3 .coffee10 {
-    /* width: 100%; */
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-
-#about_coffee3 .coffee10 h3 {
-    /* width: 100%; */
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
-}
-
-#about_coffee3 .coffee10 p {
-    /* width: 100%; */
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
-}
-
-#about_coffee3 .coffee11 {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
-}
-
-#about_coffee2 .coffee8 a {
-    text-decoration: none;
-}
-
-#main {
+#section{
     display: flex;
     justify-content: space-between;
-    padding-right: 1px;
-    padding-top: 45px;
+    padding-right: 5px;
+    
 }
 
 
@@ -359,6 +177,7 @@ p {
     align-items: center;
     gap: 5px;
     padding-top: 35px;
+    padding-left: 50px;
 
 }
 
