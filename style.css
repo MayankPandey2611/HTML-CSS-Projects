@@ -365,188 +365,8 @@ h1 a {
 
 
 
-#coffee_section .coffee_heading h1 {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #3b3b3b;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
+         /* COFFEE PART STARTS  */
 
-
-}
-
-
-#coffee_section .coffee1 {
-    /* width: 100%; */
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-
-#coffee_section .coffee1 h3 {
-    /* width: 100%; */
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
-}
-
-#coffee_section .coffee1 p {
-    /* width: 100%; */
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
-}
-
-#about_coffee .coffee2 {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
-}
-
-#about_coffee1 .coffee4 {
-    /* width: 100%; */
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-
-#about_coffee1 .coffee4 h3 {
-    /* width: 100%; */
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
-}
-
-#about_coffee1 .coffee4 p {
-    /* width: 100%; */
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
-}
-
-#about_coffee1 .coffee5 {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
-
-}
-
-#about_coffee1 .coffee5 a {
-    text-decoration: none;
-}
-
-
-#about_coffee {
-    border: 0px solid black;
-
-}
-
-#about_coffee1 {
-    border: 0px solid black;
-}
-
-#about_coffee2 {
-    border: 0px solid black;
-}
-
-#about_coffee3 {
-    border: 0px solid black;
-}
-
-#about_coffee2 .coffee7 {
-    /* width: 100%; */
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-
-#about_coffee2 .coffee7 h3 {
-    /* width: 50%; */
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
-}
-
-#about_coffee2 .coffee7 p {
-    /* width: 50%; */
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
-}
-
-#about_coffee2 .coffee8 {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
-}
-
-#about_coffee2 .coffee8 a {
-    text-decoration: none;
-}
-
-
-#about_coffee3 .coffee10 {
-    /* width: 100%; */
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-
-#about_coffee3 .coffee10 h3 {
-    /* width: 100%; */
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
-}
-
-#about_coffee3 .coffee10 p {
-    /* width: 100%; */
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
-}
-
-#about_coffee3 .coffee11 {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
-}
-
-#about_coffee2 .coffee8 a {
-    text-decoration: none;
-}
 
 #main {
     display: flex;
@@ -561,7 +381,7 @@ h1 a {
 }
 .coffee_heading h1 {
 
-    margin-left: 600px;
+    padding-left: 40%;
     font-size: 2em;
     margin-bottom: 30px;
     font-weight: bolder;
@@ -805,7 +625,7 @@ label{
      
          
              .heading{
-                 margin-right: 0;
+                 
                  margin-bottom: 20px;
              }
          #head{
@@ -825,6 +645,14 @@ label{
     }
 
   
+    .coffee-offers .arrow_class1{
+        display: none;
+    }
+
+
+    .coffee-offers .arrow_class2{
+        display: none;
+    }
 }
 
 
