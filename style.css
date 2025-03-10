@@ -556,7 +556,7 @@ label{
 @media(min-width:431px) and (max-width:768px){
 
 }
-@media(max-width:530px) {
+@media(max-width:480px) {
     label{
         display: block;
     }
@@ -615,15 +615,8 @@ label{
     .img img{
         
         width: 300px;
-        height: 250px;
-           
-         
-            
-         }
-       
-    
-     
-         
+        height: 250px;  
+         }         
              .heading{
                  
                  margin-bottom: 20px;
@@ -653,87 +646,28 @@ label{
     .coffee-offers .arrow_class2{
         display: none;
     }
+
+
+    #contact input{
+        width: 280px;
+        height: 30px;
+
+     
+
+    }
+    .blog-card img{
+        /* display: none; */
+        overflow: hidden;
+    }
+
+    .blog-container a {
+        margin-left: 5%;
+        padding-left: 9%;
+        width: 130px;
+    }
 }
 
 
-.head {
-    display: flex;
-    margin-left: 200px;
-}
-.customers{
-    display: flex;
-    justify-content: center;
-}
-
-.customers h4{
-    font-size: 20px;
-}
-
-.customers .arrow_class3{
-    border: 0px solid black;
-    width: 3%;
-    height: 50px;
-    background-color: #555;
-    display: flex;
-    justify-content: center;
-    flex: nowrap;
-
-}
-
-.customers .arrow_class3 a {
-    text-decoration: none;
-    color: white;
-    background-color: #555;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-
-
-}
-
-.customers .arrow_class3:hover {
-    background-color: red;
-    transition: 0.8s;
-}
-
-.customers .arrow_class3:hover a {
-    color: white;
-    background-color: red;
-    transition: 0.8s;
-
-}
-
-.customers .arrow_class4 {
-    border: 0px solid black;
-    width:3%;
-    height: 50px;
-    background-color: #555;
-    padding-top: 15px;
-}
-
-
-
-.customers .arrow_class4 a {
-    text-decoration: none;
-    color: white;
-    background-color: #555;
-    display: flex;
-    justify-content: center;
-
-
-}
-
-.customers .arrow_class4:hover {
-    background-color: red;
-    transition: 0.8s;
-}
-
-.customers .arrow_class4:hover a {
-    color: white;
-    background-color: red;
-    transition: 0.8s;
-
-}
 
      
      /* BLOG SECTION STARTS HERE */
@@ -768,6 +702,7 @@ label{
         border-radius: 5px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         width: 48%;
+        height: 50%;
         overflow: hidden;
     }
     
@@ -784,7 +719,7 @@ label{
     .blog-card img {
         width: 100%;
         height: auto;
-        position: relative;
+       
     }
     
     .blog-title {
@@ -864,7 +799,7 @@ label{
 }
 
 #contact input{
-    width: 700px;
+    width: 50%;
     height: 60px;
     background-color: #ebebebd8;
     color:black;
@@ -873,10 +808,12 @@ label{
    border-top-right-radius: 30px;
    border-bottom-left-radius: 30px;
    border-bottom-right-radius: 30px;
+   padding-left: 25px;
+   
 }
    
 #contact textarea{
-    width: 700px;
+    width: 50%;
     height: 90px;
     background-color: #ebebebd8;
     color:black;
@@ -885,6 +822,8 @@ label{
    border-top-right-radius: 30px;
    border-bottom-left-radius: 30px;
    border-bottom-right-radius: 30px;
+   padding-left: 25px; 
+   padding-top: 25px;
 }
 
 

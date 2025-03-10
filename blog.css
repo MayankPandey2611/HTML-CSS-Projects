@@ -132,7 +132,7 @@ h1 a {
 .blog-card img {
     width: 100%;
     height: auto;
-    position: relative;
+    
 }
 
 .blog-title {
@@ -244,6 +244,12 @@ label{
     .blog-card img{
         /* display: none; */
         overflow: hidden;
+    }
+
+    .blog-container a {
+        margin-left: 10%;
+        padding-left: 20%;
+        width: 120px;
     }
 }
 
