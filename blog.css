@@ -188,7 +188,7 @@ label{
 @media(min-width:431px) and (max-width:768px){
 
 }
-@media(max-width:430px) {
+@media(max-width:480px) {
     label{
         display: block;
     }
