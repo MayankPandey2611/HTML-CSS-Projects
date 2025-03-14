@@ -33,10 +33,7 @@ body {
     box-shadow: 0 0 10px rgba(34, 26, 26, 0.974);
 }
 
-.wrapper:hover{
-    transition: all ease 2s 0s;
-    transform: scale(1.2);
-}
+
 .wrapper h1 {
     font-size: 36px;
     text-align: center;
