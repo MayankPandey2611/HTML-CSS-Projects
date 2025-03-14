@@ -11,10 +11,6 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    /* color: #666666; */
-    /* font-size: 14px; */
-    /* font-family: 'Poppins', sans-serif; */
-    /* line-height: 1.80857; */
     font-weight: normal;
     overflow-x: hidden;
 }
@@ -25,10 +21,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    /* position: fixed; */
     background-color: rgba(16, 14, 14, 0.948);
     z-index: 999;
-    /* padding-left: 200px; */
 }
 
 #navbar div nav ul {
