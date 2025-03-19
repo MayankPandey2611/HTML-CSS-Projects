@@ -51,13 +51,17 @@
         <form align="center" action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="1165146f-0a98-4e84-8147-ad199933cd38">
 
-            <input class="content" type="name"placeholder="Your Name" required style="padding-left: 25px; font-weight: bolder;"><br><br>
-            <input  class="content" type="email" placeholder="Your Email" required style="padding-left: 25px;  font-weight: bolder;"> <br><br>
-            <input class="content" type="number" placeholder="Your Phone Number" required  style="padding-left: 25px; font-weight: bolder;"><br><br>
+            <input class="content" name="name" type="name"placeholder="Your Name" required style="padding-left: 25px; font-weight: bolder;"><br><br>
+            <input  class="content"name="email" type="email" placeholder="Your Email" required style="padding-left: 25px;  font-weight: bolder;"> <br><br>
+            <input class="content" name="number" type="number" placeholder="Your Phone Number" required  style="padding-left: 25px; font-weight: bolder;"><br><br>
             <textarea  class="content" placeholder="Message" rows="5" id="comment"
-                        name="Your Email"  style="padding-left: 25px; padding-top: 25px;  font-weight: bolder;"></textarea><br><br>
+                        name="Message"  style="padding-left: 25px; padding-top: 25px;  font-weight: bolder;"></textarea><br><br>
 
              <input class="send" type="submit" value="Send"> <br><br>
+
+
+             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+             <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
         </form>
     </section>
 
