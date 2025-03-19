@@ -283,7 +283,7 @@ h1 a {
 }
 
 #about_section .heading {
-    padding-left: 5%;
+    /* padding-left: 5%; */
     padding-top: 5%;
 
 }
@@ -608,7 +608,7 @@ label{
     }
     .img img{
         
-        width: 420px;
+        width: 400px;
         /* height: 250px;   */
          }         
              .heading{
