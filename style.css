@@ -606,10 +606,18 @@ label{
         transition: all ease 1s;
         transform: scale(1.10);
     }
+
+    #home div .coffee{
+        padding-right: 100%;
+    }
+    
+    
     .img img{
         
         width: 400px;
         /* height: 250px;   */
+
+        padding-left: 20px;
          }         
              .heading{
                  
@@ -671,6 +679,14 @@ label{
       
         margin-bottom: 0;
     }
+
+    .coffee_heading h1{
+        padding-left: 10%;
+    }
+
+    .blog-title h2{
+        padding-right:80%;
+    }
 }
 
 
@@ -729,7 +745,7 @@ label{
     }
     
     .blog-title {
-        font-size: 24px;
+        font-size: 19px;
         margin: 20px;
     }
     
