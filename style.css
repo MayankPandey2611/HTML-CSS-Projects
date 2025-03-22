@@ -99,7 +99,7 @@ h1 a {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     /* background: url(https://tse1.mm.bing.net/th?id=OIP.phATIQWSl0faEXVixpiveAHaDn&pid=Api&P=0&h=180) no-repeat center center fixed; */
     /* width: 100%;
     float: left;
@@ -616,7 +616,7 @@ label{
         
         width: 400px;
         /* height: 250px;   */
-
+        padding-right: 10px;
         padding-left: 20px;
          }         
              .heading{
@@ -745,8 +745,8 @@ label{
     }
     
     .blog-title {
-        font-size: 19px;
-        margin: 20px;
+        font-size: 16px;
+        /* margin: 20px; */
     }
     
     .blog-description {
@@ -755,7 +755,7 @@ label{
     }
     
     .blog-container a{
-        width: 100px;
+        width: 90px;
         height: 50px;
        padding-right: 10%;
     
@@ -892,7 +892,7 @@ label{
 .location_text li {
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    /* color: #ffffff; */
     padding: 0px 10px 5px 10px;
 }
 
