@@ -115,10 +115,6 @@ h1 a {
     font-size: 80px;
 }
 
-.banner {
-
-    padding-left: 80px;
-}
 
 
 #home div .coffee {
@@ -426,7 +422,7 @@ p {
     /* font-size: 20px; */
     padding: 0 10px;
     margin: 0;
-    padding-left: 45px;
+    padding-left: 43px;
 }
 
 .read-more {
